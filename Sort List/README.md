@@ -1,35 +1,9 @@
-#include <stdio.h>
+Sort List
 
-int main()
-{
-    int numbers[] = {3, 5, 4, 2, 1}, temp = 0;
+the source have Ascending sort and Descending sort by c
 
-    //Ascending
-    for(int i = 0; i < 5; i++){
-        for(int j = 0; j < 5; j++){
-            if(numbers[j] > numbers[i])
-            {
-                temp = numbers[i];
-                numbers[i] = numbers[j];
-                numbers[j] = temp;
-            }
-        }
-    }
+we create a list by 5 default index and do sorting on this list
 
-    // Descending
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     for (int j = 0; j < 5; j++)
-    //     {
-    //         if (numbers[j] < numbers[i])
-    //         {
-    //             temp = numbers[i];
-    //             numbers[i] = numbers[j];
-    //             numbers[j] = temp;
-    //         }
-    //     }
-    // }
 
-    for (int i = 0; i < 5; i++)
-        printf("%d\n", numbers[i]);
-}
+Created by : Mehdi Gholami
+Contact Me : <a href="mailto:kiarashjahangir6@gmail.com"> KiarashJahangir6@gmail.com </a>
